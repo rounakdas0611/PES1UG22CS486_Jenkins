@@ -12,7 +12,7 @@ pipeline {
                         ls -R
                         exit 1
                     fi
-                    g++ main/hello.cpp -o main/hello_exec
+                    g++ nonexistent_file.cpp -o main/hello_exec
                 '''
             }
         }
